@@ -1,0 +1,148 @@
+body::-webkit-scrollbar-thumb {
+    background-color: #de0207 !important;
+}
+
+#navigation-menu {
+    background-color: #2c2c2c;
+}
+
+#navigation-menu > div > div > a > svg:nth-child(1) > g > path {
+    fill: #de0207;
+}
+
+#navigation-menu > div > div > a > svg:nth-child(2) > g {
+    fill: #fff;
+}
+
+#navigation-menu > div:nth-child(2) > div > div > a[aria-current="page"] {
+    background-color: #404040;
+}
+
+#navigation-menu > div:nth-child(2) > div > div > a[aria-current="page"] > div,
+#navigation-menu > div:nth-child(2) > div > div > a[aria-current="page"]:link > div,
+#navigation-menu > div:nth-child(2) > div > div > a[aria-current="page"]:visited > div,
+#navigation-menu > div:nth-child(2) > div > div > a[aria-current="page"]:hover > div,
+#navigation-menu > div:nth-child(2) > div > div > a[aria-current="page"]:active > div {
+    color: #ffffff;
+    fill: #ffffff;
+}
+
+#navigation-menu > div:nth-child(2) > div > div > a > div,
+#navigation-menu > div:nth-child(2) > div > div > a:link > div,
+#navigation-menu > div:nth-child(2) > div > div > a:visited > div,
+#navigation-menu > div:nth-child(2) > div > div > a > div > svg > path,
+#navigation-menu > div:nth-child(2) > div > div > a:link > div > svg > path,
+#navigation-menu > div:nth-child(2) > div > div > a:visited > div > svg > path {
+    color: #b3b3b3;
+    fill: #b3b3b3;
+}
+
+#navigation-menu > div:nth-child(2) > div > div > a:hover > div,
+#navigation-menu > div:nth-child(2) > div > div > a:active > div,
+#navigation-menu > div:nth-child(2) > div > div > a:hover > div > svg > path,
+#navigation-menu > div:nth-child(2) > div > div > a:active > div > svg > path {
+    color: #ffffff;
+    fill: #ffffff;
+}
+
+#navigation-menu > div:nth-child(2) > div > div > button > div {
+    color: #b3b3b3;
+}
+
+#navigation-menu > div:nth-child(2) > div > div > button > div > svg > path {
+    stroke: #b3b3b3;
+}
+
+#navigation-menu > div:nth-child(2) > div > div > span,
+#navigation-menu > div:nth-child(4) > span {
+    color: #707070;
+}
+
+#navigation-menu > div:nth-child(3) > button svg > path {
+    fill: #b3b3b3;
+}
+
+#navigation-workspace-selector-trigger > button,
+#navigation-workspace-selector-trigger > button[open] {
+    box-shadow: #b3b3b3 0px 0px 0px 1px inset, #707070 0px 0px 0px 1px;
+    background-color: transparent;
+}
+
+#navigation-workspace-selector-trigger > button > div {
+    color: #c7c7c7;
+}
+
+#navigation-menu > div:nth-child(6) > button > div > span:nth-child(1) {
+    color: #ffffff;
+}
+#navigation-menu > div:nth-child(6) > button > div > span:nth-child(2) {
+    color: #c7c7c7;
+}
+
+.content-wrapper > div,
+.content-wrapper > div > div:nth-child(2),
+.content-wrapper > div > div.css-otopad,
+.content-wrapper > div > div:last-child,
+.content-wrapper .rbc-time-view > .rbc-time-header {
+    background-color: #f9fafc;
+}
+
+.content-wrapper div[data-dom-element-id="timer-button"] > svg > g > rect:nth-child(1) {
+    fill: #de0207;
+}
+
+.content-wrapper > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > span:focus > span,
+.content-wrapper > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > span > span:focus,
+.content-wrapper > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > span > span:active,
+.content-wrapper > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > span > span:hover,
+.content-wrapper > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:focus > span,
+.content-wrapper > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div > span:focus,
+.content-wrapper > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div > span:active,
+.content-wrapper > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div > span:hover,
+.content-wrapper > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:focus > span,
+.content-wrapper > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div > span:focus,
+.content-wrapper > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div > span:active,
+.content-wrapper > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div > span:hover {
+    background-color: transparent;
+}
+.content-wrapper > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div > div > span {
+    background-color: transparent;
+}
+
+.content-wrapper > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div[title="Billable"] > span > svg > path {
+    stroke: #de0207;
+}
+.content-wrapper > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > span[open] > span,
+.content-wrapper > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div[open] > span,
+.content-wrapper > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div[open] > span {
+    background-color: transparent;
+}
+
+.content-wrapper #timer-view-controls-left + div > button {
+    background-color: transparent;
+}
+.content-wrapper #timer-view-controls-left + div > button > svg path {
+    fill: #b3b3b3;
+}
+.content-wrapper div[title="Billable"] > span > svg > path {
+    stroke: #c7c7c7;
+}
+
+.content-wrapper div[title="Add time entry"] > svg > g > g {
+    fill: #de0207;
+}
+
+.DateTimeDurationPopdown__startTimeDate {
+    color: #707070 !important;
+}
+
+.CalendarDay__selected > .Day,
+.CalendarDay__today > .Day > .Day__inner {
+    background-color: #c7c7c7 !important;
+}
+
+/* Reports */
+
+#root > div > div {
+    background-color: transparent;
+}

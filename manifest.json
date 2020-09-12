@@ -1,0 +1,20 @@
+{
+    "name": "Toggl Track - old theme",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "Chrome extension that turns Toggl into old fashioned colors",
+    "homepage_url": "https://github.com/sergeyzwezdin/toggl-track-old-theme",
+    "icons": {},
+    "default_locale": "en",
+    "permissions": ["contentSettings", "notifications", "https://track.toggl.com/"],
+    "content_scripts": [
+        {
+            "matches": ["https://track.toggl.com/*"],
+            "css": ["src/inject/inject.css"]
+        },
+        {
+            "matches": ["https://track.toggl.com/*"],
+            "js": ["src/inject/inject.js"]
+        }
+    ]
+}
